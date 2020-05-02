@@ -26,11 +26,7 @@ end
 gem 'devise', '~> 4.2'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem "gritter", "1.2.0"
-<<<<<<< HEAD
-gem 'administrate', github: 'greetpoint/administrate', branch: 'rails5'
-=======
 gem "administrate", ">=0.2.2"
->>>>>>> tmp
 gem 'bourbon'
 gem 'pundit', '~> 1.1'
 gem 'puma', '~> 3.4'
