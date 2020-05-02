@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 5.0', '>= 5.0.0.1'
+gem 'rails', '4.2.11.1'
 gem 'pg', '~> 0.15'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -26,7 +26,11 @@ end
 gem 'devise', '~> 4.2'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem "gritter", "1.2.0"
+<<<<<<< HEAD
 gem 'administrate', github: 'greetpoint/administrate', branch: 'rails5'
+=======
+gem "administrate", ">=0.2.2"
+>>>>>>> tmp
 gem 'bourbon'
 gem 'pundit', '~> 1.1'
 gem 'puma', '~> 3.4'
